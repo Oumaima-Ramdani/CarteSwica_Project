@@ -1,0 +1,18 @@
+
+
+
+
+{
+    "Document Type": [225, 25, 940, 140],
+    "Username": [40, 432, 480, 486],
+    "Card Number": [30, 495, 495, 540],
+    "Date of Birth & Gender": [35, 560, 291, 605],
+    "Customer Service": [710, 255, 1025, 306],
+    "Telemedicine Health 24": [710, 298, 1025, 343],
+    "Policyholder Number": [650, 338, 1025, 385],
+    "Date Expiration": [815, 560, 1035, 610],
+    "Useless Zone 1": [285, 215, 755, 385],
+    "Useless Zone 2": [100, 140, 550, 195],
+    "test_coordinates": [695, 490, 1040, 550],
+    "OFSP_number_coordinates": [515, 495, 645, 540]
+}
