@@ -1,4 +1,4 @@
-# Insurance Card Data Extraction: Swica Card
+# Swica Card Data Extraction
 
 This project aims to automate the process of extracting data from insurance cards, a task known for its tediousness and susceptibility to errors when performed manually. Leveraging a blend of image processing and text recognition methodologies, this script systematically extracts pertinent information from each section of an insurance card, encompassing details such as the insured individual's name, AVS number, expiration date, and more. Subsequently, these extracted data points are meticulously organized and stored within a structured JSON file, facilitating seamless access and utilization for future endeavors.
 
