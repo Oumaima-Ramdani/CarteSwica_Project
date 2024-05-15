@@ -1,0 +1,73 @@
+# Insurance Card Data Extraction: Swica Card
+
+This project aims to automate the process of extracting data from insurance cards, which is often a tedious and error-prone task when done manually. Using a combination of image processing and text recognition techniques, this script extracts relevant information from each zone of an insurance card, such as the insured's name, policy number, expiration date, etc. These data are then stored in a structured JSON file for future use.
+
+The script is implemented in Python and is based on a Jupyter notebook for ease of use and interactive visualization of the extraction process steps. The code leverages popular libraries such as OpenCV for image processing and pandas for data manipulation.
+
+## Key Features
+
+- Automatic detection and extraction of relevant zones on an insurance card.
+- Recognition and extraction of textual information from each zone.
+- Generation of a structured JSON file containing the extracted data for each insurance card.
+
+## Project Background
+
+This project originates from the need to modernize and streamline the insurance claims processing workflow in an emerging insurance company. Faced with a growing volume of claims and limited resources, the company sought a solution to automate data extraction from insurance claim forms submitted by clients.
+
+By automating this process, the company aims to reduce processing times, minimize data entry errors, and free up time for its employees to focus on higher-value tasks. This project, therefore, aims to address this specific need by developing a reliable and efficient data extraction system from insurance claim forms.
+
+## Example Usage
+
+The provided Jupyter notebook demonstrates how to use the script to extract data from an insurance card. By following the provided instructions, users can execute the code step by step and visualize the results of each extraction process.
+
+
+
+
+# Which Programming Language to use ?
+
+The choice of programming language is crucial for successfully completing this project. Python has been selected due to its versatility, simplicity, and extensive range of libraries specialized in image processing and data extraction.
+
+Python offers a multitude of well-established libraries such as OpenCV for image processing, as well as tools like pandas for data manipulation. Its clear syntax and ease of learning make it an ideal choice for this type of project.
+
+Python is widely used in the field of image processing due to its specialized libraries such as OpenCV, which provide advanced features for image manipulation, object detection, shape recognition, etc.
+
+Additionally, Python is also a popular choice for data extraction because of its ability to efficiently process and analyze large datasets. Libraries like pandas facilitate the manipulation and analysis of structured data, which is essential for extracting information from documents such as insurance cards.
+
+# which working environment to choose?
+
+After selecting Python as the programming language, the next step was to choose the right environment for development. This led to the decision to utilize Anaconda, a powerful Python distribution that streamlines package management and provides essential tools for data science projects.
+Anaconda includes Jupyter Notebook, an interactive web application for creating and sharing documents containing live code, equations, visualizations, and explanatory text. Using Jupyter Notebook within Anaconda provides a convenient and efficient environment for developing and documenting data science projects.
+
+# How to Use Anaconda ?
+
+To use Anaconda, follow these simple steps:
+
+1. Download the Anaconda installer from the official website.
+2. Run the installer and follow the on-screen instructions.
+3. Once the installation is complete, you can start Anaconda Navigator from the start menu of your operating system.
+4. In Anaconda Navigator, you can launch Jupyter Notebook to work on your project.
+
+Anaconda also simplifies the management of Python dependencies and virtual environments, making it easier to develop and manage your project.
+
+### Installing Anaconda on Mac:
+
+To do so, feel free to download it from the following link:
+[Download Anaconda for Mac](https://repo.anaconda.com/archive/Anaconda3-2022.10-MacOSX-arm64.pkg)
+
+### Installing Anaconda on Windows
+
+To install Anaconda on Windows, follow these simple steps:
+1. Download the Anaconda installer from the official Anaconda website.
+2. Run the downloaded installer (.exe) file.
+3. Follow the on-screen instructions, selecting your installation preferences.
+4. Once the installation is complete, you can start using Anaconda by launching the Anaconda Navigator application from the Windows Start menu.
+
+### Installing Anaconda on Linux
+
+To install Anaconda on Linux, follow these straightforward steps:
+1. Download the Anaconda installer for Linux from the official Anaconda website.
+2. Open a terminal and navigate to the directory where the installer was downloaded.
+3. Make the installer executable by running the command: `chmod +x Anaconda3-<version>-Linux-x86_64.sh` (Replace `<version>` with the appropriate version number.)
+4. Run the installer script with the command: `./Anaconda3-<version>-Linux-x86_64.sh`
+5. Once the installation is finished, you can start using Anaconda by opening a new terminal or typing `anaconda-navigator` in the terminal.
+
