@@ -32,6 +32,9 @@ After selecting Python as the programming language, the next step was to choose 
 
 Anaconda includes Jupyter Notebook, an interactive web application for creating and sharing documents containing live code, equations, visualizations, and explanatory text. Using Jupyter Notebook within Anaconda provides a convenient and efficient environment for developing and documenting data science projects.
 
+![Uploading Capture d’écran 2024-05-15 à 22.56.30.png…]()
+
+
 ### Installing Anaconda on Mac:
 
 To do so, feel free to download it from the following link:
