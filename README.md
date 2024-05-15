@@ -32,9 +32,6 @@ After selecting Python as the programming language, the next step was to choose 
 
 Anaconda includes Jupyter Notebook, an interactive web application for creating and sharing documents containing live code, equations, visualizations, and explanatory text. Using Jupyter Notebook within Anaconda provides a convenient and efficient environment for developing and documenting data science projects.
 
-![Uploading Capture d’écran 2024-05-15 à 22.56.30.png…]()
-
-
 ### Installing Anaconda on Mac:
 
 To do so, feel free to download it from the following link:
@@ -61,7 +58,6 @@ To install Anaconda on Linux, follow these straightforward steps:
 # How to Use Anaconda ?
 
 To use Anaconda, follow these simple steps:
-
 1. Open it.
 2. Run the installer and follow the on-screen instructions.
 3. Once the installation is complete, you can start Anaconda Navigator from the start menu of your operating system.
