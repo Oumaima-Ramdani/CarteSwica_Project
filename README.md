@@ -1,8 +1,6 @@
 # Insurance Card Data Extraction: Swica Card
 
-This project aims to automate the process of extracting data from insurance cards, which is often a tedious and error-prone task when done manually. Using a combination of image processing and text recognition techniques, this script extracts relevant information from each zone of an insurance card, such as the insured's name, policy number, expiration date, etc. These data are then stored in a structured JSON file for future use.
-
-The script is implemented in Python and is based on a Jupyter notebook for ease of use and interactive visualization of the extraction process steps. The code leverages popular libraries such as OpenCV for image processing and pandas for data manipulation.
+This project aims to automate the process of extracting data from insurance cards, a task known for its tediousness and susceptibility to errors when performed manually. Leveraging a blend of image processing and text recognition methodologies, this script systematically extracts pertinent information from each section of an insurance card, encompassing details such as the insured individual's name, AVS number, expiration date, and more. Subsequently, these extracted data points are meticulously organized and stored within a structured JSON file, facilitating seamless access and utilization for future endeavors.
 
 ## Key Features
 
@@ -12,16 +10,13 @@ The script is implemented in Python and is based on a Jupyter notebook for ease 
 
 ## Project Background
 
-This project originates from the need to modernize and streamline the insurance claims processing workflow in an emerging insurance company. Faced with a growing volume of claims and limited resources, the company sought a solution to automate data extraction from insurance claim forms submitted by clients.
+This project originates from the need to modernize and streamline the insurance claims processing workflow in an emerging insurance company. Faced with a growing volume of claims and limited resources, the company sought
 
-By automating this process, the company aims to reduce processing times, minimize data entry errors, and free up time for its employees to focus on higher-value tasks. This project, therefore, aims to address this specific need by developing a reliable and efficient data extraction system from insurance claim forms.
+a solution to automate data extraction from insurance claim forms submitted by clients.
 
-## Example Usage
+By automating this process, the company aims to reduce processing times, minimize data entry errors, and free up time for its employees to focus on higher-value tasks. This project, therefore, aims to address this 
 
-The provided Jupyter notebook demonstrates how to use the script to extract data from an insurance card. By following the provided instructions, users can execute the code step by step and visualize the results of each extraction process.
-
-
-
+specific need by developing a reliable and efficient data extraction system from insurance claim forms.
 
 # Which Programming Language to use ?
 
