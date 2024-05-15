@@ -11,11 +11,9 @@ This project aims to automate the process of extracting data from insurance card
 ## Project Background
 
 This project originates from the need to modernize and streamline the insurance claims processing workflow in an emerging insurance company. Faced with a growing volume of claims and limited resources, the company sought
-
 a solution to automate data extraction from insurance claim forms submitted by clients.
 
 By automating this process, the company aims to reduce processing times, minimize data entry errors, and free up time for its employees to focus on higher-value tasks. This project, therefore, aims to address this 
-
 specific need by developing a reliable and efficient data extraction system from insurance claim forms.
 
 # Which Programming Language to use ?
@@ -31,18 +29,8 @@ Additionally, Python is also a popular choice for data extraction because of its
 # which working environment to choose?
 
 After selecting Python as the programming language, the next step was to choose the right environment for development. This led to the decision to utilize Anaconda, a powerful Python distribution that streamlines package management and provides essential tools for data science projects.
+
 Anaconda includes Jupyter Notebook, an interactive web application for creating and sharing documents containing live code, equations, visualizations, and explanatory text. Using Jupyter Notebook within Anaconda provides a convenient and efficient environment for developing and documenting data science projects.
-
-# How to Use Anaconda ?
-
-To use Anaconda, follow these simple steps:
-
-1. Download the Anaconda installer from the official website.
-2. Run the installer and follow the on-screen instructions.
-3. Once the installation is complete, you can start Anaconda Navigator from the start menu of your operating system.
-4. In Anaconda Navigator, you can launch Jupyter Notebook to work on your project.
-
-Anaconda also simplifies the management of Python dependencies and virtual environments, making it easier to develop and manage your project.
 
 ### Installing Anaconda on Mac:
 
@@ -65,4 +53,15 @@ To install Anaconda on Linux, follow these straightforward steps:
 3. Make the installer executable by running the command: `chmod +x Anaconda3-<version>-Linux-x86_64.sh` (Replace `<version>` with the appropriate version number.)
 4. Run the installer script with the command: `./Anaconda3-<version>-Linux-x86_64.sh`
 5. Once the installation is finished, you can start using Anaconda by opening a new terminal or typing `anaconda-navigator` in the terminal.
+
+
+# How to Use Anaconda ?
+
+To use Anaconda, follow these simple steps:
+
+1. Open it.
+2. Run the installer and follow the on-screen instructions.
+3. Once the installation is complete, you can start Anaconda Navigator from the start menu of your operating system.
+4. In Anaconda Navigator, you can launch Jupyter Notebook to work on your project.
+
 
