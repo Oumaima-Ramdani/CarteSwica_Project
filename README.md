@@ -68,10 +68,10 @@ To use Anaconda, follow these simple steps:
 # Image Preprocessing and Data Extraction Workflow :  Instructions for the user:
 
 ### 1. Installing Libraries :
-!pip install rembg
+'''!pip install rembg
 !pip install pillow
 !pip install pytesseract
-!pip install easyocr
+!pip install easyocr'''
 
 ### 2. Importing Libraries : 
 import os
