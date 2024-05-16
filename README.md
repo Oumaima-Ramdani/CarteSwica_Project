@@ -76,6 +76,12 @@ pip install pillow
 pip install pytesseract
 pip install easyocr
 
+```bash
+pip install rembg
+pip install pillow
+pip install pytesseract
+pip install easyocr
+
 ### 2. Importing Libraries : 
 import os
 from rembg import remove
@@ -130,9 +136,7 @@ The script will extract the files into a folder named easy-ocr-tutorial.
 
 
 - Create a folder named "JsonConfig" on your desktop.
-- Place the JSON configuration file named "modeleSwica.json" inside the "JsonConfig" folder. This file contains a text file "text.json" containing the coordinates of each zone : 
-
-  <img width="646" alt="Capture d’écran 2024-05-16 à 14 45 37" src="https://github.com/Oumaima-Ramdani/CarteSwica_Project/assets/167336780/1777d5ee-5774-471d-b3d2-da856fbccb4f">
+- Place the JSON configuration file named "modeleSwica.json" inside the "JsonConfig" folder. This file contains a text file "text.json" containing the coordinates of each zone :
   
 ```python
 {
