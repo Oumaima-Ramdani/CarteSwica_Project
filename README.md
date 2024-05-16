@@ -125,12 +125,17 @@ The script will extract the files into a folder named easy-ocr-tutorial.
 3. Run the script in your Python environment.
 
 ### 8. Instructions for Using the JSON Configuration File :
+
+![2022-07-18-topstory-teaserbild](https://github.com/Oumaima-Ramdani/CarteSwica_Project/assets/167336780/f13e4c62-9413-4267-be43-4915e24826a9)
+
+
 - Create a folder named "JsonConfig" on your desktop.
 - Place the JSON configuration file named "modeleSwica.json" inside the "JsonConfig" folder. This file contains a text file "text.json" containing the coordinates of each zone : 
 
   <img width="646" alt="Capture d’écran 2024-05-16 à 14 45 37" src="https://github.com/Oumaima-Ramdani/CarteSwica_Project/assets/167336780/1777d5ee-5774-471d-b3d2-da856fbccb4f">
   
- {
+```python
+{
     "Document Type": [225, 25, 940, 140],
     "Username": [40, 432, 480, 486],
     "Card Number": [30, 495, 495, 540],
@@ -144,6 +149,7 @@ The script will extract the files into a folder named easy-ocr-tutorial.
     "test_coordinates": [695, 490, 1040, 550],
     "OFSP_number_coordinates": [515, 495, 645, 540]
 }
+
 
 - Open the Python script.
 - Locate the lines where the folder paths are defined and replace them with the paths to your "Cartes_swica_final" and "JsonConfig" folders.
