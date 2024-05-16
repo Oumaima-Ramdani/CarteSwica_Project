@@ -127,7 +127,7 @@ The script will extract the files into a folder named easy-ocr-tutorial.
 
 The following image illustrates the categorization of distinct zones for the extraction of their respective data:
 
-![2022-07-18-topstory-teaserbild](https://github.com/Oumaima-Ramdani/CarteSwica_Project/assets/167336780/f13e4c62-9413-4267-be43-4915e24826a9)
+![2022-07-18-topstory-teaserbild](https://github.com/Oumaima-Ramdani/CarteSwica_Project/assets/167336780/e24fb783-8079-429d-91cb-6202f9eff096)
 
 For that:
 - Create a folder named "JsonConfig" on your desktop.
