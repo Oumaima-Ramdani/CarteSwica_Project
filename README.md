@@ -71,18 +71,15 @@ To use Anaconda, follow these simple steps:
 To complete the project, please follow the following instructions:
 
 ### 1. Installing Libraries :
-pip install rembg
-pip install pillow
-pip install pytesseract
-pip install easyocr
-
 ```bash
 pip install rembg
 pip install pillow
 pip install pytesseract
 pip install easyocr
+```
 
 ### 2. Importing Libraries : 
+```bash
 import os
 from rembg import remove
 from PIL import Image
@@ -94,6 +91,7 @@ from skimage.measure import label, regionprops
 import pytesseract
 from pytesseract import Output
 from easyocr import Reader
+```
 
 ### 3. Download and extract the necessary resources : 
 Run the following command to download the necessary files: "!wget https://pyimagesearch-code-downloads.s3-us-west-2.amazonaws.com/easy-ocr-tutorial/easy-ocr-tutorial.zip
@@ -153,6 +151,7 @@ The script will extract the files into a folder named easy-ocr-tutorial.
     "test_coordinates": [695, 490, 1040, 550],
     "OFSP_number_coordinates": [515, 495, 645, 540]
 }
+```
 
 
 - Open the Python script.
