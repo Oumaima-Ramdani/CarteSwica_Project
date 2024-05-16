@@ -68,10 +68,10 @@ To use Anaconda, follow these simple steps:
 # Image Preprocessing and Data Extraction Workflow :  Instructions for the user:
 
 ### 1. Installing Libraries :
-'''!pip install rembg
+!pip install rembg
 !pip install pillow
 !pip install pytesseract
-!pip install easyocr'''
+!pip install easyocr
 
 ### 2. Importing Libraries : 
 import os
@@ -94,7 +94,13 @@ from easyocr import Reader
 4. Replace the `input_folder` and `output_folder` paths in the script with the paths to your input and output folders.
 5. Run the script in your Python environment.
 
-### 4. 
+### 4. Configuring  Output and Input Folder Paths :
+
+1. Create a folder named "output_final" on your desktop.
+2. Replace the output folder path (output_folder) in the script with the path to your "output_final" folder.
+3. Similarly, replace the input folder path (input_folder) in the script with the path to your "output" folder.
+4. Run the script in your Python environment.
+
 
 
 
