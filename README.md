@@ -52,7 +52,7 @@ To install Anaconda on Windows, follow these simple steps:
 To install Anaconda on Linux, follow these straightforward steps:
 1. Download the Anaconda installer for Linux from the official Anaconda website.
 2. Open a terminal and navigate to the directory where the installer was downloaded.
-3. Make the installer executable by running the command: `chmod +x Anaconda3-<version>-Linux-x86_64.sh` (Replace `<version>` with the appropriate version number.)
+3. Make the installer executable by running the command: `chmod +x Anaconda3-<version>-Linux-x86_64.sh` (Replace `<version>` with the appropriate version number.) 
 4. Run the installer script with the command: `./Anaconda3-<version>-Linux-x86_64.sh`
 5. Once the installation is finished, you can start using Anaconda by opening a new terminal or typing `anaconda-navigator` in the terminal.
 
@@ -65,5 +65,36 @@ To use Anaconda, follow these simple steps:
 3. Once the installation is complete, you can start Anaconda Navigator from the start menu of your operating system.
 4. In Anaconda Navigator, you can launch Jupyter Notebook to work on your project.
 
-# Image Preprocessing and Data Extraction Workflow : 
-#
+# Image Preprocessing and Data Extraction Workflow :  Instructions for the user:
+
+### 1. Installing Libraries :
+!pip install rembg
+!pip install pillow
+!pip install pytesseract
+!pip install easyocr
+
+### 2. Importing Libraries : 
+import os
+from rembg import remove
+from PIL import Image
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+from skimage import io
+from skimage.measure import label, regionprops
+import pytesseract
+from pytesseract import Output
+from easyocr import Reader
+
+### 3. Setting Up Input and Output Folders : 
+
+1. Create a folder named "input" on your desktop.
+2. Place all the insurance card images you want to process in this "input" folder.
+3. Create a folder named "output" on your desktop.
+4. Replace the `input_folder` and `output_folder` paths in the script with the paths to your input and output folders.
+5. Run the script in your Python environment.
+
+### 4. 
+
+
+
