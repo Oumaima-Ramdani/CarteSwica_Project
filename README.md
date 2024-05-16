@@ -126,12 +126,29 @@ The script will extract the files into a folder named easy-ocr-tutorial.
 
 ### 8. Instructions for Using the JSON Configuration File :
 - Create a folder named "JsonConfig" on your desktop.
-- Place the JSON configuration file named "modeleSwica.json" inside the "JsonConfig" folder. This file contains a text file "text.json" containing the coordinates of each zone.
+- Place the JSON configuration file named "modeleSwica.json" inside the "JsonConfig" folder. This file contains a text file "text.json" containing the coordinates of each zone : 
+
+  <img width="646" alt="Capture d’écran 2024-05-16 à 14 45 37" src="https://github.com/Oumaima-Ramdani/CarteSwica_Project/assets/167336780/1777d5ee-5774-471d-b3d2-da856fbccb4f">
   
+ {
+    "Document Type": [225, 25, 940, 140],
+    "Username": [40, 432, 480, 486],
+    "Card Number": [30, 495, 495, 540],
+    "Date of Birth & Gender": [35, 560, 291, 605],
+    "Customer Service": [710, 255, 1025, 306],
+    "Telemedicine Health 24": [710, 298, 1025, 343],
+    "Policyholder Number": [650, 338, 1025, 385],
+    "Date Expiration": [815, 560, 1035, 610],
+    "Useless Zone 1": [285, 215, 755, 385],
+    "Useless Zone 2": [100, 140, 550, 195],
+    "test_coordinates": [695, 490, 1040, 550],
+    "OFSP_number_coordinates": [515, 495, 645, 540]
+}
+
 - Open the Python script.
 - Locate the lines where the folder paths are defined and replace them with the paths to your "Cartes_swica_final" and "JsonConfig" folders.
 - Once the paths have been configured, execute the script.
-- 
+
 The script will extract information from the insurance cards located in the "Cartes_swica_final" folder using the zones defined in the "modeleSwica.json" file. It will then display and save the results in a JSON file named "extraction_results.json".
 
 
