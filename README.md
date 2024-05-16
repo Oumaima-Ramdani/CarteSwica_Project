@@ -72,10 +72,10 @@ To complete the project, please follow the following instructions:
 
 ### 1. Installing Libraries :
 ```bash
-pip install rembg
-pip install pillow
-pip install pytesseract
-pip install easyocr
+!pip install rembg
+!pip install pillow
+!pip install pytesseract
+!pip install easyocr
 ```
 
 ### 2. Importing Libraries : 
