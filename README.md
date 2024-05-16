@@ -103,10 +103,16 @@ from easyocr import Reader
 4. Run the script in your Python environment.
 
 
-### 5. Instructions for Processing Output Images : 
+### 5. Setting Up Carte Swica Folder : 
 
 1. Create a folder named "carte_swica" on your desktop.
 2. Replace the output folder path (`output_folder`) in the script with the path to your "carte_swica" folder.
+3. Run the script in your Python environment.
+ 
+### 6. Configuring Carte Swica final Folder Path : 
+
+1. Create a folder named "Cartes_swica_final" on your desktop.
+2. Replace the output folder path (output_folder) in the script with the path to your "Cartes_swica_final" folder.
 3. Run the script in your Python environment.
 
 
