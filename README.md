@@ -66,7 +66,9 @@ To use Anaconda, follow these simple steps:
    <img width="1709" alt="Capture d’écran 2024-05-15 à 22 56 30" src="https://github.com/Oumaima-Ramdani/CarteSwica_Project/assets/167336780/e950e476-fd69-48b4-9cbd-bec8eaf0a3ba">
 
 
-# Image Preprocessing and Data Extraction Workflow :  Instructions for the user:
+# Image Preprocessing and Data Extraction Workflow : 
+#  Instructions for the user:
+To complete the project, please follow the following instructions:
 
 ### 1. Installing Libraries :
 !pip install rembg
@@ -121,5 +123,7 @@ The script will extract the files into a folder named easy-ocr-tutorial.
 1. Create a folder named "Cartes_swica_final" on your desktop.
 2. Replace the output folder path (output_folder) in the script with the path to your "Cartes_swica_final" folder.
 3. Run the script in your Python environment.
+
+
 
 
