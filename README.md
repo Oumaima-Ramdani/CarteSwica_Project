@@ -87,15 +87,22 @@ import pytesseract
 from pytesseract import Output
 from easyocr import Reader
 
-### 3. Setting Up Input and Output Folders : 
+### 3. Download and extract the necessary resources : 
+Run the following command to download the necessary files: "!wget https://pyimagesearch-code-downloads.s3-us-west-2.amazonaws.com/easy-ocr-tutorial/easy-ocr-tutorial.zip
+!unzip -qq easy-ocr-tutorial.zip
+%cd easy-ocr-tutorial" 
+
+The script will extract the files into a folder named easy-ocr-tutorial.
+
+### 4. Setting Up Input and Output Folders : 
 
 1. Create a folder named "input" on your desktop.
-2. Place all the insurance card images you want to process in this "input" folder.
-3. Create a folder named "output" on your desktop.
-4. Replace the `input_folder` and `output_folder` paths in the script with the paths to your input and output folders.
-5. Run the script in your Python environment.
+2. Place all the insurance card images you want to process in a folder named "input" inside the easy-ocr-tutorial directory.
+4. Create a folder named "output" on your desktop.
+5. Replace the `input_folder` and `output_folder` paths in the script with the paths to your input and output folders.
+6. Run the script in your Python environment.
 
-### 4. Configuring  Output and Input Folder Paths :
+### 5. Configuring  Output and Input Folder Paths :
 
 1. Create a folder named "output_final" on your desktop.
 2. Replace the output folder path (output_folder) in the script with the path to your "output_final" folder.
@@ -103,13 +110,13 @@ from easyocr import Reader
 4. Run the script in your Python environment.
 
 
-### 5. Setting Up Carte Swica Folder : 
+### 6. Setting Up Carte Swica Folder : 
 
 1. Create a folder named "carte_swica" on your desktop.
 2. Replace the output folder path (`output_folder`) in the script with the path to your "carte_swica" folder.
 3. Run the script in your Python environment.
  
-### 6. Configuring Carte Swica final Folder Path : 
+### 7. Configuring Carte Swica final Folder Path : 
 
 1. Create a folder named "Cartes_swica_final" on your desktop.
 2. Replace the output folder path (output_folder) in the script with the path to your "Cartes_swica_final" folder.
