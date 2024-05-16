@@ -63,4 +63,5 @@ To use Anaconda, follow these simple steps:
 3. Once the installation is complete, you can start Anaconda Navigator from the start menu of your operating system.
 4. In Anaconda Navigator, you can launch Jupyter Notebook to work on your project.
 
-
+# Image Preprocessing and Data Extraction Workflow : 
+#
