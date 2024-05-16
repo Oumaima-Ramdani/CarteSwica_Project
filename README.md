@@ -8,23 +8,10 @@ This project aims to automate the process of extracting data from insurance card
 - Recognition and extraction of textual information from each zone.
 - Generation of a structured JSON file containing the extracted data for each insurance card.
 
-## Project Background
-
-This project originates from the need to modernize and streamline the insurance claims processing workflow in an emerging insurance company. Faced with a growing volume of claims and limited resources, the company sought
-a solution to automate data extraction from insurance claim forms submitted by clients.
-
-By automating this process, the company aims to reduce processing times, minimize data entry errors, and free up time for its employees to focus on higher-value tasks. This project, therefore, aims to address this 
-specific need by developing a reliable and efficient data extraction system from insurance claim forms.
 
 # Which Programming Language to use ?
 
-The choice of programming language is crucial for successfully completing this project. Python has been selected due to its versatility, simplicity, and extensive range of libraries specialized in image processing and data extraction.
-
-Python offers a multitude of well-established libraries such as OpenCV for image processing, as well as tools like pandas for data manipulation. Its clear syntax and ease of learning make it an ideal choice for this type of project.
-
-Python is widely used in the field of image processing due to its specialized libraries such as OpenCV, which provide advanced features for image manipulation, object detection, shape recognition, etc.
-
-Additionally, Python is also a popular choice for data extraction because of its ability to efficiently process and analyze large datasets. Libraries like pandas facilitate the manipulation and analysis of structured data, which is essential for extracting information from documents such as insurance cards.
+Python was chosen for its versatility, simplicity, and extensive libraries specialized in image processing and data extraction. Tools like OpenCV and pandas offer advanced features for image processing and data manipulation. Python's clear syntax makes it ideal for this project, where image processing and data extraction are crucial.
 
 # which working environment to choose?
 
@@ -35,6 +22,7 @@ Anaconda includes Jupyter Notebook, an interactive web application for creating 
 ### Installing Anaconda on Mac:
 
 To do so, feel free to download it from the following link:
+
 [Download Anaconda for Mac](https://repo.anaconda.com/archive/Anaconda3-2022.10-MacOSX-arm64.pkg)
 
 ### Installing Anaconda on Windows
@@ -66,19 +54,22 @@ To use Anaconda, follow these simple steps:
    <img width="1709" alt="Capture d’écran 2024-05-15 à 22 56 30" src="https://github.com/Oumaima-Ramdani/CarteSwica_Project/assets/167336780/e950e476-fd69-48b4-9cbd-bec8eaf0a3ba">
 
 
-# Image Preprocessing and Data Extraction Workflow : 
+# Image Preprocessing and Data Extraction Workflow 
 #  Instructions for the user:
 To complete the project, please follow the following instructions:
 
 ### 1. Installing Libraries :
+
 ```bash
 !pip install rembg
 !pip install pillow
 !pip install pytesseract
 !pip install easyocr
 ```
+These commands install the necessary Python libraries for image background removal (rembg), image manipulation (Pillow), text recognition (pytesseract), and optical character recognition (OCR) with ease (easyocr).
 
 ### 2. Importing Libraries : 
+
 ```bash
 import os
 from rembg import remove
@@ -92,12 +83,16 @@ import pytesseract
 from pytesseract import Output
 from easyocr import Reader
 ```
+This code imports essential Python libraries for various tasks including image processing, computer vision, data visualization, and text recognition. It includes modules for background removal (rembg), image manipulation (Pillow and OpenCV), data analysis (numpy and skimage), data visualization (matplotlib), and text recognition (pytesseract).
 
 ### 3. Download and extract the necessary resources : 
-Run the following command to download the necessary files: "!wget https://pyimagesearch-code-downloads.s3-us-west-2.amazonaws.com/easy-ocr-tutorial/easy-ocr-tutorial.zip
-!unzip -qq easy-ocr-tutorial.zip
-%cd easy-ocr-tutorial" 
+Run the following command to download the necessary files:
 
+```bash
+!wget https://pyimagesearch-code-downloads.s3-us-west-2.amazonaws.com/easy-ocr-tutorial/easy-ocr-tutorial.zip
+!unzip -qq easy-ocr-tutorial.zip
+%cd easy-ocr-tutorial
+```
 The script will extract the files into a folder named easy-ocr-tutorial.
 
 ### 4. Setting Up Input and Output Folders : 
@@ -130,9 +125,11 @@ The script will extract the files into a folder named easy-ocr-tutorial.
 
 ### 8. Instructions for Using the JSON Configuration File :
 
+The following image illustrates the categorization of distinct zones for the extraction of their respective data:
+
 ![2022-07-18-topstory-teaserbild](https://github.com/Oumaima-Ramdani/CarteSwica_Project/assets/167336780/f13e4c62-9413-4267-be43-4915e24826a9)
 
-
+For that:
 - Create a folder named "JsonConfig" on your desktop.
 - Place the JSON configuration file named "modeleSwica.json" inside the "JsonConfig" folder. This file contains a text file "text.json" containing the coordinates of each zone :
   
@@ -152,7 +149,6 @@ The script will extract the files into a folder named easy-ocr-tutorial.
     "OFSP_number_coordinates": [515, 495, 645, 540]
 }
 ```
-
 
 - Open the Python script.
 - Locate the lines where the folder paths are defined and replace them with the paths to your "Cartes_swica_final" and "JsonConfig" folders.
