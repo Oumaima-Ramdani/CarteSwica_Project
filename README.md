@@ -32,8 +32,6 @@ After selecting Python as the programming language, the next step was to choose 
 
 Anaconda includes Jupyter Notebook, an interactive web application for creating and sharing documents containing live code, equations, visualizations, and explanatory text. Using Jupyter Notebook within Anaconda provides a convenient and efficient environment for developing and documenting data science projects.
 
-<img width="1709" alt="Capture d’écran 2024-05-15 à 22 56 30" src="https://github.com/Oumaima-Ramdani/CarteSwica_Project/assets/167336780/e950e476-fd69-48b4-9cbd-bec8eaf0a3ba">
-
 ### Installing Anaconda on Mac:
 
 To do so, feel free to download it from the following link:
@@ -64,6 +62,9 @@ To use Anaconda, follow these simple steps:
 2. Run the installer and follow the on-screen instructions.
 3. Once the installation is complete, you can start Anaconda Navigator from the start menu of your operating system.
 4. In Anaconda Navigator, you can launch Jupyter Notebook to work on your project.
+
+   <img width="1709" alt="Capture d’écran 2024-05-15 à 22 56 30" src="https://github.com/Oumaima-Ramdani/CarteSwica_Project/assets/167336780/e950e476-fd69-48b4-9cbd-bec8eaf0a3ba">
+
 
 # Image Preprocessing and Data Extraction Workflow :  Instructions for the user:
 
@@ -102,5 +103,10 @@ from easyocr import Reader
 4. Run the script in your Python environment.
 
 
+### 5. Instructions for Processing Output Images : 
+
+1. Create a folder named "carte_swica" on your desktop.
+2. Replace the output folder path (`output_folder`) in the script with the path to your "carte_swica" folder.
+3. Run the script in your Python environment.
 
 
