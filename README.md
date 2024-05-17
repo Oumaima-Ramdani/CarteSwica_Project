@@ -99,31 +99,11 @@ The script will extract the files into a folder named easy-ocr-tutorial.
 
 1. Create a folder named "input" on your desktop.
 2. Place all the insurance card images you want to process in a folder named "input" inside the easy-ocr-tutorial directory.
-4. Create a folder named "output" on your desktop.
-5. Replace the `input_folder` and `output_folder` paths in the script with the paths to your input and output folders.
-6. Run the script in your Python environment.
+3. Replace the `input_folder` path in the script with the path to your input folder.
+4. Replace all the `output_folder` path in the all the script with the paths where you want the files to be created. (`output`, `output_final`, `carte_swica` and `Cartes_swica_final`)
+5. Run the script in your Python environment.
 
-### 5. Configuring  Output and Input Folder Paths :
-
-1. Create a folder named "output_final" on your desktop.
-2. Replace the output folder path (output_folder) in the script with the path to your "output_final" folder.
-3. Similarly, replace the input folder path (input_folder) in the script with the path to your "output" folder.
-4. Run the script in your Python environment.
-
-
-### 6. Setting Up Carte Swica Folder : 
-
-1. Create a folder named "carte_swica" on your desktop.
-2. Replace the output folder path (`output_folder`) in the script with the path to your "carte_swica" folder.
-3. Run the script in your Python environment.
- 
-### 7. Configuring Carte Swica final Folder Path : 
-
-1. Create a folder named "Cartes_swica_final" on your desktop.
-2. Replace the output folder path (output_folder) in the script with the path to your "Cartes_swica_final" folder.
-3. Run the script in your Python environment.
-
-### 8. Instructions for Using the JSON Configuration File :
+### 5. Instructions for Using the JSON Configuration File :
 
 The following image illustrates the categorization of distinct zones for the extraction of their respective data:
 
